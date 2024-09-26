@@ -1,0 +1,33 @@
+<div class="contact-page">
+    <mat-card *ngFor="let contact of contacts" class="contact-card">
+        <mat-card-header>
+            <img mat-card-avatar [src]="contact.avatar" alt="{{contact.name}}" />
+            <mat-card-title>{{ contact.name }}</mat-card-title>
+            <mat-card-subtitle>{{ contact.job }}</mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-divider></mat-divider>
+
+        <mat-card-content>
+            <mat-list>
+                <mat-list-item>
+                    <mat-icon matListIcon>phone</mat-icon>
+                    <span>{{ contact.phone }}</span>
+                </mat-list-item>
+                <mat-list-item>
+                    <mat-icon matListIcon>email</mat-icon>
+                    <span>{{ contact.email }}</span>
+                </mat-list-item>
+            </mat-list>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-raised-button color="primary">
+                <mat-icon>call</mat-icon> Call
+            </button>
+            <button mat-raised-button color="accent">
+                <mat-icon>email</mat-icon> Email
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>
