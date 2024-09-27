@@ -1,13 +1,33 @@
-
 .spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  padding: 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .spacer {
+    display: none;
   }
-  
-  mat-toolbar {
-    padding: 0 16px;
+
+  button[mat-icon-button] {
+    margin-left: auto;
   }
-  .logo {
-    height: 40px; /* Ajuste a altura conforme necessário */
-    width: auto;
-    margin-right: 10px;
+
+  mat-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

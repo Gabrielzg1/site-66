@@ -3,10 +3,16 @@
     <span>Medicina 66</span>
     <span class="spacer"></span>
 
-    <a mat-button routerLink="/home">Home</a>
-    <a mat-button routerLink="/sobre">Sobre</a>
-    <a mat-button routerLink="/servico">Serviços</a>
-    <a mat-button routerLink="/contato">Contato</a>
+    <!-- Botão do Menu Hamburguer -->
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+    </button>
 
-
+    <!-- Menu que será exibido ao clicar no ícone -->
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item [routerLink]="'/home'">Home</button>
+        <button mat-menu-item [routerLink]="'/sobre'">Sobre</button>
+        <button mat-menu-item [routerLink]="'/servico'">Serviços</button>
+        <button mat-menu-item [routerLink]="'/contato'">Contato</button>
+    </mat-menu>
 </mat-toolbar>
