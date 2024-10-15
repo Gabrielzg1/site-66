@@ -44,9 +44,11 @@ mat-card-content {
 }
 
 mat-list-item {
-  display: flex;
-  align-items: center;
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: normal;
 }
+
 
 mat-icon {
   margin-right: 10px;
@@ -56,4 +58,11 @@ mat-card-actions {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+}
+
+.email {
+  font-size: smaller;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  white-space: normal;
 }

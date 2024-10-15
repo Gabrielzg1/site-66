@@ -40,21 +40,21 @@ export class ContactComponent {
       name: 'Giovana California',
       phone: '19 99423-9173',
       email: 'giovanacalifornia@gmail.com',
-      job: '',
+      job: 'Aluna',
       avatar: 'profile.png'
     },
     {
       name: 'Julia Noumi Mellis',
       phone: '19 99219-9930',
       email: 'juliamellis13@gmail.com',
-      job: '',
+      job: 'Aluna',
       avatar: 'profile.png'
     },
     {
       name: 'Giulia Dovichi',
       phone: '19 99898-5279',
       email: 'giuliadovichicruz@gmail.com',
-      job: '',
+      job: 'Aluna',
       avatar: 'profile.png'
     }
 ];
