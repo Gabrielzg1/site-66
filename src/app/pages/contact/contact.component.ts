@@ -14,34 +14,49 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent {
-  contacts = [
+   contacts = [
     {
-      name: 'John Doe',
-      phone: '(123) 456-7890',
-      email: 'john.doe@example.com',
-      job: 'Software Engineer',
-      avatar: 'https://randomuser.me/api/portraits/men/32.jpg'
+      name: 'Isadora Abbondanza',
+      phone: '(11) 99662-6522',
+      email: 'isaabbondanza1@gmail.com',
+      job: 'Aluna',
+      avatar: 'profile.png'
     },
     {
-      name: 'Jane Smith',
-      phone: '(987) 654-3210',
-      email: 'jane.smith@example.com',
-      job: 'UI/UX Designer',
-      avatar: 'https://randomuser.me/api/portraits/women/44.jpg'
+      name: 'Giuliana Ruzene Luciano',
+      phone: '(19) 99390-2671',
+      email: 'ruzenegiuliana@gmail.com',
+      job: 'Aluna',
+      avatar: 'profile.png'
     },
     {
-      name: 'Sam Wilson',
-      phone: '(555) 666-7777',
-      email: 'sam.wilson@example.com',
-      job: 'Project Manager',
-      avatar: 'https://randomuser.me/api/portraits/men/45.jpg'
+      name: 'Ana Luiza Biasi Beretta',
+      phone: '(19) 99905-6767',
+      email: 'berettaana@gmail.com',
+      job: 'Aluna',
+      avatar: 'profile.png'
     },
     {
-      name: 'Sam Wilson',
-      phone: '(555) 666-7777',
-      email: 'sam.wilson@example.com',
-      job: 'Project Manager',
-      avatar: 'https://randomuser.me/api/portraits/men/45.jpg'
+      name: 'Giovana California',
+      phone: '19 99423-9173',
+      email: 'giovanacalifornia@gmail.com',
+      job: '',
+      avatar: 'profile.png'
+    },
+    {
+      name: 'Julia Noumi Mellis',
+      phone: '19 99219-9930',
+      email: 'juliamellis13@gmail.com',
+      job: '',
+      avatar: 'profile.png'
+    },
+    {
+      name: 'Giulia Dovichi',
+      phone: '19 99898-5279',
+      email: 'giuliadovichicruz@gmail.com',
+      job: '',
+      avatar: 'profile.png'
     }
-  ];
+];
+
 }
